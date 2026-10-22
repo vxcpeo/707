@@ -1,0 +1,1881 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T17:08:46.683Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/707/website",
+    "name": "probiuna-site",
+    "vueVersion": "^3.5.4",
+    "nuxt": false,
+    "dependencies": [
+      "@axe-core/playwright",
+      "@playwright/test",
+      "@vitejs/plugin-vue",
+      "ethers",
+      "vite",
+      "vue"
+    ],
+    "packageManager": "npm",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "test": "playwright test",
+      "test:ui": "playwright test tests/discovery.spec.js",
+      "sync:mirror": "node scripts/sync-mirror.mjs"
+    },
+    "frameworks": []
+  },
+  "stats": {
+    "filesScanned": 18,
+    "vueFiles": 8,
+    "routes": 1,
+    "staticTextTokens": 496,
+    "bindingTokens": 336,
+    "eventTokens": 164,
+    "classNames": 142,
+    "colors": 168
+  },
+  "routes": [
+    {
+      "path": "/",
+      "dynamic": false
+    }
+  ],
+  "unresolvedRoutes": [],
+  "archetype": {
+    "id": "orbital",
+    "family": "spatial",
+    "traits": {
+      "sidebar": false,
+      "topbar": true,
+      "cards": true,
+      "hero": true,
+      "table": false,
+      "grid": true,
+      "tabs": false,
+      "modal": true,
+      "charts": false,
+      "sticky": true,
+      "orbital": true,
+      "terminal": false,
+      "bento": false,
+      "ticker": true,
+      "gallery": false
+    }
+  },
+  "palette": [
+    {
+      "hex": "#0b8175",
+      "count": 8
+    },
+    {
+      "hex": "#18231f",
+      "count": 8
+    },
+    {
+      "hex": "#dcebe3",
+      "count": 8
+    },
+    {
+      "hex": "#dfc884",
+      "count": 8
+    },
+    {
+      "hex": "#e4edf5",
+      "count": 8
+    },
+    {
+      "hex": "#ffffff",
+      "count": 8
+    },
+    {
+      "hex": "#07665d",
+      "count": 4
+    },
+    {
+      "hex": "#17233b",
+      "count": 4
+    },
+    {
+      "hex": "#1b2921",
+      "count": 4
+    },
+    {
+      "hex": "#40534a",
+      "count": 4
+    },
+    {
+      "hex": "#426f9c",
+      "count": 4
+    },
+    {
+      "hex": "#526277",
+      "count": 4
+    },
+    {
+      "hex": "#674d1d",
+      "count": 4
+    },
+    {
+      "hex": "#78847d",
+      "count": 4
+    },
+    {
+      "hex": "#79302e",
+      "count": 4
+    },
+    {
+      "hex": "#7f5910",
+      "count": 4
+    },
+    {
+      "hex": "#83a195",
+      "count": 4
+    },
+    {
+      "hex": "#8ea5a5",
+      "count": 4
+    },
+    {
+      "hex": "#9c5f26",
+      "count": 4
+    },
+    {
+      "hex": "#9fd6b9",
+      "count": 4
+    },
+    {
+      "hex": "#a06d12",
+      "count": 4
+    },
+    {
+      "hex": "#a6403c",
+      "count": 4
+    },
+    {
+      "hex": "#b8c8c7",
+      "count": 4
+    },
+    {
+      "hex": "#bb7068",
+      "count": 4
+    },
+    {
+      "hex": "#c7e9d4",
+      "count": 4
+    },
+    {
+      "hex": "#cbdcd1",
+      "count": 4
+    },
+    {
+      "hex": "#d1a64c",
+      "count": 4
+    },
+    {
+      "hex": "#d9e9e4",
+      "count": 4
+    },
+    {
+      "hex": "#e4eeeb",
+      "count": 4
+    },
+    {
+      "hex": "#e7c4bd",
+      "count": 4
+    },
+    {
+      "hex": "#e8d4a4",
+      "count": 4
+    },
+    {
+      "hex": "#eef4f2",
+      "count": 4
+    }
+  ],
+  "fonts": [],
+  "classNames": [
+    "===",
+    "[",
+    "active-filters",
+    "active:",
+    "activeNav",
+    "art-topline",
+    "back-top",
+    "board-surface",
+    "bookmark-button",
+    "brand",
+    "brand-descriptor",
+    "builder-intro",
+    "builder-section",
+    "button",
+    "category",
+    "change-metric",
+    "clear-filters",
+    "connected:",
+    "cover-caption",
+    "cover-orbit",
+    "cover-reference",
+    "current:",
+    "desk-stats",
+    "desk-summary",
+    "detail-blurb",
+    "detail-label",
+    "detail-metrics",
+    "detail-project",
+    "detail-subtitle",
+    "dialog",
+    "dialog-description",
+    "dialog-footer",
+    "dialog-heading",
+    "dimension-detail",
+    "dimension-index",
+    "dimension-list",
+    "discovery-section",
+    "discovery-toolbar",
+    "dossier-cover",
+    "edition-label",
+    "edition-number",
+    "empty-state",
+    "empty-symbol",
+    "evidence-dialog",
+    "evidence-link",
+    "evidence-notes",
+    "eyebrow",
+    "field-hint",
+    "filter-label",
+    "filter-row",
+    "footer",
+    "footer-brand",
+    "footer-links",
+    "form-disclosure",
+    "form-error",
+    "form-label",
+    "full-width",
+    "heading-count",
+    "hero-actions",
+    "hero-copy",
+    "hero-description",
+    "hero-footnote",
+    "holders-metric",
+    "icon",
+    "icon-button",
+    "index-illustration",
+    "item",
+    "layout",
+    "layout-control",
+    "liquidity-metric",
+    "list-head",
+    "loading-spinner",
+    "main-content",
+    "main-shell",
+    "masthead",
+    "method-disclosure",
+    "method-intro",
+    "method-section",
+    "metric-label",
+    "nav-strip",
+    "positive",
+    "primary",
+    "primary-nav",
+    "project-actions",
+    "project-blurb",
+    "project-category",
+    "project-icon",
+    "project-identity",
+    "project-index",
+    "project-list",
+    "project-metric",
+    "project-name",
+    "project-row",
+    "project-score",
+    "project-ticker",
+    "project.color",
+    "reading-guide",
+    "registry-address",
+    "registry-empty",
+    "registry-entries",
+    "registry-header",
+    "registry-panel",
+    "registry-status",
+    "registry-symbol",
+    "research-art",
+    "results-note",
+    "sample-dot",
+    "sample-label",
+    "sample-notice",
+    "saved.includes(project.id)",
+    "saved:",
+    "score-track",
+    "score-value",
+    "search-box",
+    "secondary",
+    "section-heading",
+    "selected:",
+    "selectedProject.color",
+    "site-header",
+    "skip-link",
+    "sort-control",
+    "spectrum-caption",
+    "sr-only",
+    "status-dot",
+    "storage-note",
+    "submission-steps",
+    "submission-success",
+    "submit-dialog",
+    "testnet-pill",
+    "text-button",
+    "toast-message",
+    "toast-region",
+    "transaction-link",
+    "transaction-progress",
+    "transaction.phase",
+    "undo-button",
+    "wallet-button",
+    "wallet-indicator",
+    "wallet.address",
+    "weight-spectrum",
+    "workspace",
+    "}"
+  ],
+  "designSignals": {
+    "frameworks": [],
+    "cssVars": [
+      "--amber",
+      "--amber-soft",
+      "--blue",
+      "--blue-soft",
+      "--brand",
+      "--brand-soft",
+      "--brand-strong",
+      "--canvas",
+      "--content-width",
+      "--cover",
+      "--danger",
+      "--danger-soft",
+      "--ink",
+      "--line",
+      "--line-strong",
+      "--mono",
+      "--motion",
+      "--muted",
+      "--page-pad",
+      "--sans",
+      "--success",
+      "--surface",
+      "--surface-muted"
+    ],
+    "colorVars": [
+      {
+        "name": "--amber",
+        "value": "#a06d12"
+      },
+      {
+        "name": "--amber-soft",
+        "value": "#f7efd9"
+      },
+      {
+        "name": "--blue",
+        "value": "#426f9c"
+      },
+      {
+        "name": "--blue-soft",
+        "value": "#e4edf5"
+      },
+      {
+        "name": "--brand",
+        "value": "#0b8175"
+      },
+      {
+        "name": "--brand-soft",
+        "value": "#d9e9e4"
+      },
+      {
+        "name": "--brand-strong",
+        "value": "#07665d"
+      },
+      {
+        "name": "--canvas",
+        "value": "#eef4f2"
+      },
+      {
+        "name": "--cover",
+        "value": "#e4edf5"
+      },
+      {
+        "name": "--danger",
+        "value": "#a6403c"
+      },
+      {
+        "name": "--danger-soft",
+        "value": "#f8e7e3"
+      },
+      {
+        "name": "--ink",
+        "value": "#17233b"
+      },
+      {
+        "name": "--line",
+        "value": "#b8c8c7"
+      },
+      {
+        "name": "--line-strong",
+        "value": "#8ea5a5"
+      },
+      {
+        "name": "--muted",
+        "value": "#526277"
+      },
+      {
+        "name": "--success",
+        "value": "#0b8175"
+      },
+      {
+        "name": "--surface",
+        "value": "#ffffff"
+      },
+      {
+        "name": "--surface-muted",
+        "value": "#e4eeeb"
+      }
+    ],
+    "mediaQueries": [
+      "@media (max-width: 1000px)",
+      "@media (max-width: 420px)",
+      "@media (max-width: 760px)",
+      "@media (min-width: 1500px)",
+      "@media (prefers-reduced-motion: reduce)"
+    ],
+    "darkMode": false
+  },
+  "structure": {
+    "tagCounts": {
+      "a": 80,
+      "article": 4,
+      "br": 32,
+      "button": 100,
+      "circle": 24,
+      "code": 4,
+      "defs": 4,
+      "details": 4,
+      "dialog": 8,
+      "div": 268,
+      "em": 8,
+      "figcaption": 4,
+      "figure": 4,
+      "footer": 4,
+      "form": 4,
+      "g": 8,
+      "h1": 4,
+      "h2": 24,
+      "h3": 20,
+      "h4": 4,
+      "header": 4,
+      "icon": 200,
+      "img": 4,
+      "input": 12,
+      "kbd": 4,
+      "label": 16,
+      "li": 4,
+      "main": 4,
+      "nav": 4,
+      "ol": 4,
+      "option": 12,
+      "p": 108,
+      "path": 44,
+      "pattern": 4,
+      "rect": 12,
+      "section": 16,
+      "select": 4,
+      "small": 60,
+      "span": 292,
+      "strong": 64,
+      "summary": 4,
+      "svg": 12,
+      "template": 12,
+      "transition": 4
+    },
+    "depthHistogram": {
+      "0": 24,
+      "1": 32,
+      "2": 76,
+      "3": 208,
+      "4": 216,
+      "5": 236,
+      "6": 308,
+      "7": 248,
+      "8": 112,
+      "9": 44,
+      "10": 12
+    },
+    "maxDepth": 10,
+    "topLevelTags": [
+      "a",
+      "div",
+      "dialog",
+      "dialog",
+      "div",
+      "svg",
+      "a",
+      "div",
+      "dialog",
+      "dialog",
+      "div",
+      "svg",
+      "a",
+      "div",
+      "dialog",
+      "dialog",
+      "div",
+      "svg",
+      "a",
+      "div",
+      "dialog",
+      "dialog",
+      "div",
+      "svg"
+    ],
+    "skeletonSample": [
+      "a",
+      "div",
+      "  header",
+      "    div",
+      "      a",
+      "        img",
+      "        span",
+      "          span",
+      "      p",
+      "        br",
+      "        span",
+      "      button",
+      "        icon",
+      "        span",
+      "        span",
+      "    div",
+      "      nav",
+      "        a",
+      "          span",
+      "        a",
+      "          span",
+      "        a",
+      "          span",
+      "        a",
+      "          icon",
+      "      span",
+      "        span",
+      "  div",
+      "    main",
+      "      section",
+      "        div",
+      "          p",
+      "            span",
+      "          h1",
+      "          p",
+      "          div",
+      "            a",
+      "              icon",
+      "            a",
+      "              icon",
+      "          p",
+      "        div",
+      "          div",
+      "            span",
+      "            strong",
+      "            small",
+      "          div",
+      "            span",
+      "            strong",
+      "            small",
+      "          a",
+      "            icon",
+      "        figure",
+      "          div",
+      "            span",
+      "            span",
+      "          svg",
+      "            defs",
+      "              pattern",
+      "                path",
+      "            circle",
+      "            path",
+      "            g",
+      "              rect",
+      "              path",
+      "            g",
+      "              rect",
+      "              path",
+      "              path",
+      "              circle",
+      "              circle",
+      "              path",
+      "              circle",
+      "            rect",
+      "            path",
+      "            circle",
+      "            path",
+      "            path",
+      "            circle",
+      "          figcaption",
+      "            span",
+      "              br",
+      "              strong",
+      "            a",
+      "              icon",
+      "      div",
+      "        a",
+      "          span",
+      "          div",
+      "            strong",
+      "            small",
+      "          icon",
+      "        a",
+      "          span",
+      "          div",
+      "            strong",
+      "            small",
+      "          icon",
+      "        a",
+      "          span",
+      "          div",
+      "            strong",
+      "            small",
+      "          icon",
+      "      section",
+      "        div",
+      "          div",
+      "            p",
+      "            h2",
+      "              span",
+      "          span",
+      "            span",
+      "        div",
+      "          div",
+      "            label",
+      "              icon",
+      "              span",
+      "              input",
+      "              kbd",
+      "            label"
+    ]
+  },
+  "contentContract": {
+    "schemaVersion": 1,
+    "meta": {
+      "projectName": "probiuna-site",
+      "title": "probiuna-site",
+      "lang": "en"
+    },
+    "routes": [
+      "/"
+    ],
+    "visibleText": [
+      {
+        "value": ". It is stored in the registry; it does not automatically join the curated sample collection.",
+        "count": 4
+      },
+      {
+        "value": "/100",
+        "count": 8
+      },
+      {
+        "value": "0",
+        "count": 4
+      },
+      {
+        "value": "01",
+        "count": 8
+      },
+      {
+        "value": "01 Details",
+        "count": 4
+      },
+      {
+        "value": "02",
+        "count": 8
+      },
+      {
+        "value": "02 Wallet approval",
+        "count": 4
+      },
+      {
+        "value": "03",
+        "count": 4
+      },
+      {
+        "value": "03 Confirmation",
+        "count": 4
+      },
+      {
+        "value": "100%",
+        "count": 4
+      },
+      {
+        "value": "7D change",
+        "count": 4
+      },
+      {
+        "value": "7D CHANGE",
+        "count": 4
+      },
+      {
+        "value": "7D SIGNAL CHANGE",
+        "count": 4
+      },
+      {
+        "value": "A Robinhood Chain Testnet registry contract must be configured before submitting.",
+        "count": 4
+      },
+      {
+        "value": "active",
+        "count": 4
+      },
+      {
+        "value": "Add a public",
+        "count": 4
+      },
+      {
+        "value": "An EVM wallet on Robinhood Chain Testnet and ETH for gas are needed to submit.",
+        "count": 4
+      },
+      {
+        "value": "AN OPEN INVITATION",
+        "count": 4
+      },
+      {
+        "value": "Back to discovery",
+        "count": 4
+      },
+      {
+        "value": "Browse sample projects",
+        "count": 4
+      },
+      {
+        "value": "Browser storage is unavailable. Your saved signals will last for this session.",
+        "count": 4
+      },
+      {
+        "value": "Building something?",
+        "count": 4
+      },
+      {
+        "value": "Chain ID",
+        "count": 4
+      },
+      {
+        "value": "Clear filters",
+        "count": 8
+      },
+      {
+        "value": "Compare illustrative signals and inspect public registry entries on Robinhood Chain Testnet.",
+        "count": 4
+      },
+      {
+        "value": "Context changes the picture.",
+        "count": 4
+      },
+      {
+        "value": "Copy address",
+        "count": 4
+      },
+      {
+        "value": "DISCOVERY INDEX",
+        "count": 4
+      },
+      {
+        "value": "Download the methodology",
+        "count": 4
+      },
+      {
+        "value": "Explore",
+        "count": 4
+      },
+      {
+        "value": "Explore all projects",
+        "count": 4
+      },
+      {
+        "value": "FICTIONAL SAMPLE COLLECTION",
+        "count": 4
+      },
+      {
+        "value": "FIELD NOTES / 0",
+        "count": 4
+      },
+      {
+        "value": "FIG. 01",
+        "count": 4
+      },
+      {
+        "value": "Find a starting point",
+        "count": 4
+      },
+      {
+        "value": "Five dimensions, one research framework. Inspect the inputs before you decide what the number means.",
+        "count": 4
+      },
+      {
+        "value": "FOLLOW THE INPUTS",
+        "count": 4
+      },
+      {
+        "value": "Follow the source. Test the claim.",
+        "count": 4
+      },
+      {
+        "value": "For builders",
+        "count": 4
+      },
+      {
+        "value": "Give your project a public starting point. Register a slug and an evidence link on",
+        "count": 4
+      },
+      {
+        "value": "Highest score",
+        "count": 4
+      },
+      {
+        "value": "Holders",
+        "count": 4
+      },
+      {
+        "value": "HOLDERS",
+        "count": 8
+      },
+      {
+        "value": "Illustrative data · not a live market feed",
+        "count": 4
+      },
+      {
+        "value": "Illustrative scores. Not a production index.",
+        "count": 4
+      },
+      {
+        "value": "INDEPENDENT PROJECT RESEARCH",
+        "count": 4
+      },
+      {
+        "value": "Independent project research.",
+        "count": 4
+      },
+      {
+        "value": "INDEPENDENT RESEARCH / TESTNET DATA",
+        "count": 4
+      },
+      {
+        "value": "Keep a closer look",
+        "count": 4
+      },
+      {
+        "value": "Latest",
+        "count": 4
+      },
+      {
+        "value": "Leave a clear record.",
+        "count": 4
+      },
+      {
+        "value": "Link to public project metadata. Probiuna does not upload or pin files.",
+        "count": 4
+      },
+      {
+        "value": "Liquidity",
+        "count": 8
+      },
+      {
+        "value": "LIQUIDITY",
+        "count": 8
+      },
+      {
+        "value": "Look closer.",
+        "count": 4
+      },
+      {
+        "value": "Metadata link",
+        "count": 4
+      },
+      {
+        "value": "Name A-Z",
+        "count": 4
+      },
+      {
+        "value": "NETWORK",
+        "count": 4
+      },
+      {
+        "value": "NEW REGISTRY ENTRY",
+        "count": 4
+      },
+      {
+        "value": "of",
+        "count": 4
+      },
+      {
+        "value": "on-chain entries · separate from the sample collection.",
+        "count": 4
+      },
+      {
+        "value": "only · Requires testnet ETH for gas.",
+        "count": 4
+      },
+      {
+        "value": "Optional",
+        "count": 4
+      },
+      {
+        "value": "probiuna",
+        "count": 4
+      },
+      {
+        "value": "Probiuna",
+        "count": 4
+      },
+      {
+        "value": "Probiuna Registry",
+        "count": 4
+      },
+      {
+        "value": "probiuna.xyz",
+        "count": 4
+      },
+      {
+        "value": "PROJECT / SIGNAL",
+        "count": 4
+      },
+      {
+        "value": "PROJECT DOSSIER / SAMPLE",
+        "count": 4
+      },
+      {
+        "value": "Project research",
+        "count": 4
+      },
+      {
+        "value": "Project slug",
+        "count": 4
+      },
+      {
+        "value": "PROPOSED MODEL / V0.1",
+        "count": 4
+      },
+      {
+        "value": "PROPOSED WEIGHTING",
+        "count": 4
+      },
+      {
+        "value": "Publish your project slug and an optional metadata link. The entry is public, and each slug can only be registered once.",
+        "count": 4
+      },
+      {
+        "value": "Question the inputs",
+        "count": 4
+      },
+      {
+        "value": "Read the dossier",
+        "count": 4
+      },
+      {
+        "value": "Read the five research dimensions",
+        "count": 4
+      },
+      {
+        "value": "Recheck confirmation",
+        "count": 4
+      },
+      {
+        "value": "REGISTRY CONTRACT",
+        "count": 4
+      },
+      {
+        "value": "Registry details",
+        "count": 4
+      },
+      {
+        "value": "REGISTRY ENTRIES",
+        "count": 4
+      },
+      {
+        "value": "registry entry.",
+        "count": 4
+      },
+      {
+        "value": "Required",
+        "count": 4
+      },
+      {
+        "value": "Research",
+        "count": 4
+      },
+      {
+        "value": "Research methodology",
+        "count": 4
+      },
+      {
+        "value": "Retry",
+        "count": 4
+      },
+      {
+        "value": "Robinhood Chain",
+        "count": 4
+      },
+      {
+        "value": "Sample metrics are fictional and separate from on-chain records.",
+        "count": 4
+      },
+      {
+        "value": "sample project dossiers",
+        "count": 4
+      },
+      {
+        "value": "sample projects",
+        "count": 4
+      },
+      {
+        "value": "SAMPLE SCORE",
+        "count": 8
+      },
+      {
+        "value": "saved in your browser",
+        "count": 4
+      },
+      {
+        "value": "Saved signals",
+        "count": 4
+      },
+      {
+        "value": "SIGNAL",
+        "count": 4
+      },
+      {
+        "value": "Skip to content",
+        "count": 4
+      },
+      {
+        "value": "Test the claim.",
+        "count": 4
+      },
+      {
+        "value": "TESTNET",
+        "count": 8
+      },
+      {
+        "value": "Testnet only. Sample data is not investment advice.",
+        "count": 4
+      },
+      {
+        "value": "THE ANATOMY OF A SIGNAL",
+        "count": 4
+      },
+      {
+        "value": "The methodology",
+        "count": 4
+      },
+      {
+        "value": "THE RESEARCH LENS",
+        "count": 4
+      },
+      {
+        "value": "This experimental contract has not been externally audited.",
+        "count": 4
+      },
+      {
+        "value": "This is a fictional sample project. All scores, metrics, and notes below demonstrate the discovery experience; they are not verified evidence.",
+        "count": 4
+      },
+      {
+        "value": "Trace the source.",
+        "count": 4
+      },
+      {
+        "value": "Track transaction",
+        "count": 4
+      },
+      {
+        "value": "Understand the score",
+        "count": 4
+      },
+      {
+        "value": "Undo",
+        "count": 8
+      },
+      {
+        "value": "Use a short, recognizable name. Slugs are case-sensitive.",
+        "count": 4
+      },
+      {
+        "value": "View on explorer",
+        "count": 4
+      },
+      {
+        "value": "View transaction",
+        "count": 4
+      },
+      {
+        "value": "What to look into",
+        "count": 4
+      },
+      {
+        "value": "X / @probiuna",
+        "count": 4
+      },
+      {
+        "value": "Your project entry was confirmed on",
+        "count": 4
+      },
+      {
+        "value": "Your project is on the record.",
+        "count": 4
+      }
+    ],
+    "hiddenText": [
+      {
+        "value": "Search projects",
+        "count": 4
+      },
+      {
+        "value": "Sort projects",
+        "count": 4
+      }
+    ],
+    "attributes": [
+      {
+        "name": "href",
+        "value": "#builders",
+        "count": 8
+      },
+      {
+        "name": "href",
+        "value": "#main",
+        "count": 4
+      },
+      {
+        "name": "href",
+        "value": "#method",
+        "count": 20
+      },
+      {
+        "name": "href",
+        "value": "#saved",
+        "count": 8
+      },
+      {
+        "name": "href",
+        "value": "#signals",
+        "count": 12
+      },
+      {
+        "name": "href",
+        "value": "#top",
+        "count": 8
+      },
+      {
+        "name": "href",
+        "value": "https://probiuna.xyz",
+        "count": 4
+      },
+      {
+        "name": "href",
+        "value": "https://x.com/probiuna",
+        "count": 1
+      },
+      {
+        "name": "href",
+        "value": "https://x.com/Probiuna",
+        "count": 3
+      },
+      {
+        "name": "name",
+        "value": "arrow",
+        "count": 68
+      },
+      {
+        "name": "name",
+        "value": "arrow-up",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "bookmark",
+        "count": 8
+      },
+      {
+        "name": "name",
+        "value": "check",
+        "count": 8
+      },
+      {
+        "name": "name",
+        "value": "close",
+        "count": 20
+      },
+      {
+        "name": "name",
+        "value": "copy",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "download",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "grid",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "info",
+        "count": 16
+      },
+      {
+        "name": "name",
+        "value": "layers",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "list",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "plus",
+        "count": 8
+      },
+      {
+        "name": "name",
+        "value": "refresh",
+        "count": 12
+      },
+      {
+        "name": "name",
+        "value": "search",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "sliders",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "sort",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "toast",
+        "count": 4
+      },
+      {
+        "name": "name",
+        "value": "wallet",
+        "count": 8
+      },
+      {
+        "name": "placeholder",
+        "value": "ipfs://… or https://…",
+        "count": 4
+      },
+      {
+        "name": "placeholder",
+        "value": "Search project, ticker, or idea",
+        "count": 4
+      },
+      {
+        "name": "placeholder",
+        "value": "your-project",
+        "count": 4
+      },
+      {
+        "name": "src",
+        "value": "/probiuna-logo.svg",
+        "count": 4
+      },
+      {
+        "name": "value",
+        "value": "liquidity",
+        "count": 4
+      },
+      {
+        "name": "value",
+        "value": "name",
+        "count": 4
+      },
+      {
+        "name": "value",
+        "value": "score",
+        "count": 4
+      }
+    ],
+    "bindings": [
+      {
+        "kind": "attr",
+        "expr": "explorerTransactionUrl(transaction.hash)",
+        "count": 8
+      },
+      {
+        "kind": "attr",
+        "expr": "explorerUrl",
+        "count": 4
+      },
+      {
+        "kind": "attr",
+        "expr": "project.icon",
+        "count": 8
+      },
+      {
+        "kind": "attr",
+        "expr": "savedOnly ? 'bookmark' : 'search'",
+        "count": 4
+      },
+      {
+        "kind": "attr",
+        "expr": "selectedProject.icon",
+        "count": 4
+      },
+      {
+        "kind": "form",
+        "expr": "project.icon",
+        "count": 8
+      },
+      {
+        "kind": "form",
+        "expr": "savedOnly ? 'bookmark' : 'search'",
+        "count": 4
+      },
+      {
+        "kind": "form",
+        "expr": "selectedProject.icon",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "activeFilterCount",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "activeFilterCount === 1 ? \"filter\" : \"filters\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "category",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chainId",
+        "count": 12
+      },
+      {
+        "kind": "interpolation",
+        "expr": "connecting ? \"Connecting...\" : wallet.address ? `${wallet.address.slice(0, 6)}...${wallet.address.slice(-4)}` : \"Connect wallet\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "dimension.description",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "dimension.detail",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "dimension.name",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "dimension.weight",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "entry.active ? \"Active\" : \"Inactive\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "entry.id",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "entry.slug || `Entry ${entry.id}`",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "filteredProjects.length",
+        "count": 8
+      },
+      {
+        "kind": "interpolation",
+        "expr": "formError || transaction.error",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "index + 1",
+        "count": 8
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "network",
+        "count": 24
+      },
+      {
+        "kind": "interpolation",
+        "expr": "note.text",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "note.title",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.blurb",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.delta",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.holders",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.liquidity",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.name",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.score",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.tag",
+        "count": 8
+      },
+      {
+        "kind": "interpolation",
+        "expr": "project.ticker",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "projects.length",
+        "count": 12
+      },
+      {
+        "kind": "interpolation",
+        "expr": "query",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryAddress",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryEntries.length",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryState === \"loading\" ? `Reading the ${network} registry...` : registryState === \"ready\" ? `${registryCount} project ${registryCount === 1 ? \"entry\" : \"entries\"} registered` : registryState === \"unconfigured\" ? \"Registry contract is not configured\" : \"The registry could not be reached\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryState === \"ready\" ? \"Public submissions\" : \"Read-only status\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryState === \"ready\" ? \"The registry is ready for its first project. Add a public record of your work.\" : registryState === \"loading\" ? \"Loading public entries. You can keep exploring the sample collection.\" : registryState === \"unconfigured\" ? \"Browsing is available. Registry submissions need a configured contract address.\" : \"The sample collection remains available while the registry is offline.\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "registryState === \"ready\" ? registryCount : \"—\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "saved.includes(selectedProject.id) ? \"Remove from saved\" : \"Save signal\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "saved.length",
+        "count": 8
+      },
+      {
+        "kind": "interpolation",
+        "expr": "savedOnly ? \"Saved projects\" : \"Project signals\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "savedOnly && !saved.length ? \"Bookmark a project to create a shortlist. Your saved signals stay in this browser.\" : \"Try another search or clear your filters to see the collection.\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "savedOnly && !saved.length ? \"Your next good find belongs here.\" : \"No signals found.\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.blurb",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.delta",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.holders",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.liquidity",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.name",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.score",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.tag",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selectedProject.ticker",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "String(index + 1).padStart(2, \"0\")",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "submitting ? \"Submission in progress…\" : wallet.address ? \"Submit to testnet registry\" : \"Connect wallet & submit\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "toast",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "transaction.phase === \"pending\" ? \"Check pending submission\" : \"Submit a project\"",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "transaction.phase === \"signature\" ? \"Review the request in your wallet…\" : \"Transaction sent. Waiting for confirmation…\"",
+        "count": 4
+      },
+      {
+        "kind": "link",
+        "expr": "explorerTransactionUrl(transaction.hash)",
+        "count": 8
+      },
+      {
+        "kind": "link",
+        "expr": "explorerUrl",
+        "count": 4
+      },
+      {
+        "kind": "model",
+        "expr": "query",
+        "count": 4
+      },
+      {
+        "kind": "model",
+        "expr": "slug",
+        "count": 4
+      },
+      {
+        "kind": "model",
+        "expr": "sort",
+        "count": 4
+      },
+      {
+        "kind": "model",
+        "expr": "uri",
+        "count": 4
+      }
+    ],
+    "events": [
+      {
+        "event": "click",
+        "handler": "(event) => { if (event.target === detailDialog) detailDialog.close(); }",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "activeNav = 'builders'",
+        "count": 8
+      },
+      {
+        "event": "click",
+        "handler": "activeNav = 'method'",
+        "count": 16
+      },
+      {
+        "event": "click",
+        "handler": "category = 'All signals'",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "category = item",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "clearFilters",
+        "count": 8
+      },
+      {
+        "event": "click",
+        "handler": "connectWallet",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "copyAddress",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "detailDialog.close()",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "detailDialog.close(); activeNav = 'method';",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "downloadMethod",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "layout = 'cards'",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "layout = 'rows'",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "loadRegistry",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "openDetails(project)",
+        "count": 8
+      },
+      {
+        "event": "click",
+        "handler": "openSubmit",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "query = ''",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "recheckSubmission",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "resetFilters",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "selectView(false)",
+        "count": 12
+      },
+      {
+        "event": "click",
+        "handler": "selectView(true)",
+        "count": 8
+      },
+      {
+        "event": "click",
+        "handler": "submitDialog.close()",
+        "count": 8
+      },
+      {
+        "event": "click",
+        "handler": "toast = ''",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "toggleSaved(project)",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "toggleSaved(selectedProject)",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "undoSaved",
+        "count": 8
+      },
+      {
+        "event": "close",
+        "handler": "restoreFocus",
+        "count": 8
+      },
+      {
+        "event": "keydown",
+        "handler": "query = ''",
+        "count": 4
+      },
+      {
+        "event": "submit",
+        "handler": "sendPulse",
+        "count": 4
+      }
+    ],
+    "links": [
+      {
+        "kind": "href",
+        "target": "#builders",
+        "count": 8
+      },
+      {
+        "kind": "href",
+        "target": "#main",
+        "count": 4
+      },
+      {
+        "kind": "href",
+        "target": "#method",
+        "count": 20
+      },
+      {
+        "kind": "href",
+        "target": "#saved",
+        "count": 8
+      },
+      {
+        "kind": "href",
+        "target": "#signals",
+        "count": 12
+      },
+      {
+        "kind": "href",
+        "target": "#top",
+        "count": 8
+      },
+      {
+        "kind": "href",
+        "target": "https://probiuna.xyz",
+        "count": 4
+      },
+      {
+        "kind": "href",
+        "target": "https://x.com/probiuna",
+        "count": 1
+      },
+      {
+        "kind": "href",
+        "target": "https://x.com/Probiuna",
+        "count": 3
+      }
+    ],
+    "assets": [
+      {
+        "kind": "src",
+        "value": "/probiuna-logo.svg",
+        "count": 4
+      }
+    ],
+    "forms": [
+      {
+        "tag": "input",
+        "name": "",
+        "type": "",
+        "count": 8
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "search",
+        "count": 4
+      },
+      {
+        "tag": "select",
+        "name": "",
+        "type": "",
+        "count": 4
+      }
+    ],
+    "i18n": [],
+    "i18nKeys": [],
+    "i18nFiles": [],
+    "api": [],
+    "env": [
+      "VITE_CHAIN_ID",
+      "VITE_EXPLORER_URL",
+      "VITE_REGISTRY_ADDRESS",
+      "VITE_RPC_URL"
+    ]
+  },
+  "contentContractHash": "90062af3a8813457ea8c2c785ea530f4e214f6ea112c352c241808e71740b5d8"
+}

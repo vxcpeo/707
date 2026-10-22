@@ -1,0 +1,224 @@
+- generic [ref=f7e2]:
+  - link "Skip to content" [ref=f7e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f7e4]:
+    - banner [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - link "Velnori home" [ref=f7e7] [cursor=pointer]:
+          - /url: "#top"
+          - generic [ref=f7e8]: velnori.
+        - navigation "Main navigation" [ref=f7e9]:
+          - link "Discover" [ref=f7e10] [cursor=pointer]:
+            - /url: "#signals"
+          - link "Saved signals 0" [ref=f7e11] [cursor=pointer]:
+            - /url: "#saved"
+            - text: Saved signals
+            - generic [ref=f7e12]: "0"
+          - link "The methodology" [ref=f7e13] [cursor=pointer]:
+            - /url: "#method"
+          - link "For builders" [ref=f7e14] [cursor=pointer]:
+            - /url: "#builders"
+        - button "Connect wallet" [ref=f7e15] [cursor=pointer]
+    - main [ref=f7e19]:
+      - generic [ref=f7e21]:
+        - text: ROBINHOOD CHAIN
+        - generic [ref=f7e23]: TESTNET
+      - region [ref=f7e24]:
+        - generic [ref=f7e25]:
+          - paragraph [ref=f7e26]: A BETTER STARTING POINT
+          - heading [level=1] [ref=f7e27]:
+            - text: Find your next
+            - emphasis [ref=f7e28]: direction.
+          - paragraph [ref=f7e29]: Get to know the projects behind the signals. Explore their work, understand the context, and build your own view.
+          - generic [ref=f7e30]:
+            - link "Explore projects" [ref=f7e31] [cursor=pointer]:
+              - /url: "#signals"
+            - generic [ref=f7e34]: No wallet needed to explore
+        - img "A blue direction finder linking discovery, context, and your own perspective" [ref=f7e35]:
+          - generic [ref=f7e36]: VELNORI / DISCOVERY SYSTEM
+          - img [aria-hidden] [ref=f7e37]:
+            - generic [ref=f7e51]: CONTEXT
+            - generic [ref=f7e52]: DISCOVER
+          - generic [ref=f7e57]:
+            - text: A little context.
+            - strong [ref=f7e58]: A clearer perspective.
+      - generic [ref=f7e59]:
+        - generic [ref=f7e63]:
+          - strong [ref=f7e64]: 03 sample projects
+          - generic [ref=f7e65]: A collection to get you started
+        - generic [ref=f7e69]:
+          - strong [ref=f7e70]: 05 evidence dimensions
+          - generic [ref=f7e71]: See what goes into the score
+      - region [ref=f7e72]:
+        - generic [ref=f7e73]:
+          - generic [ref=f7e74]:
+            - paragraph [ref=f7e75]: THE DISCOVERY COLLECTION
+            - heading "Worth a closer look." [level=2] [ref=f7e76]
+          - generic [ref=f7e77]: Sample collection
+        - generic [ref=f7e80]:
+          - generic [ref=f7e81]:
+            - generic [ref=f7e84]: Search projects
+            - searchbox "Search projects" [ref=f7e85]
+          - generic [ref=f7e86]:
+            - generic [ref=f7e87]: Sort by
+            - generic [ref=f7e88]: Sort projects
+            - combobox "Sort by Sort projects" [ref=f7e89] [cursor=pointer]:
+              - option "Highest score" [selected]
+              - option "Liquidity"
+              - option "Name A-Z"
+        - generic "Filter by signal" [ref=f7e90]:
+          - button "All signals" [pressed] [ref=f7e91] [cursor=pointer]:
+            - text: All signals
+            - generic [ref=f7e92]: "3"
+          - button "Builder cadence" [ref=f7e93] [cursor=pointer]
+          - button "Holder breadth" [ref=f7e94] [cursor=pointer]
+          - button "Liquidity health" [ref=f7e95] [cursor=pointer]
+        - generic [ref=f7e96]:
+          - article [ref=f7e97]:
+            - generic [ref=f7e98]:
+              - generic [ref=f7e102]: Builder cadence
+              - button "Save Lantern" [ref=f7e103] [cursor=pointer]
+            - generic [ref=f7e106]:
+              - heading "Lantern" [level=3] [ref=f7e107]
+              - generic [ref=f7e108]: $LANTERN
+            - paragraph [ref=f7e109]: Small team. Steady releases. A wallet-native quest board taking shape in public.
+            - generic [ref=f7e111]:
+              - generic [ref=f7e112]: SAMPLE SIGNAL SCORE
+              - strong [ref=f7e113]: 86/ 100
+            - generic [ref=f7e116]:
+              - generic [ref=f7e117]:
+                - generic [ref=f7e118]: Holders
+                - strong [ref=f7e119]: 2.8k
+              - generic [ref=f7e120]:
+                - generic [ref=f7e121]: Liquidity
+                - strong [ref=f7e122]: $184k
+              - generic [ref=f7e123]:
+                - generic [ref=f7e124]: 7D signal
+                - strong [ref=f7e125]: +14.2%
+            - button "Open Lantern evidence" [ref=f7e126] [cursor=pointer]: Explore the evidence
+          - article [ref=f7e129]:
+            - generic [ref=f7e130]:
+              - generic [ref=f7e134]: Holder breadth
+              - button "Save Orbitals" [ref=f7e135] [cursor=pointer]
+            - generic [ref=f7e138]:
+              - heading "Orbitals" [level=3] [ref=f7e139]
+              - generic [ref=f7e140]: $ORB
+            - paragraph [ref=f7e141]: A wider circle of small holders, with liquidity depth that holds its ground.
+            - generic [ref=f7e143]:
+              - generic [ref=f7e144]: SAMPLE SIGNAL SCORE
+              - strong [ref=f7e145]: 79/ 100
+            - generic [ref=f7e148]:
+              - generic [ref=f7e149]:
+                - generic [ref=f7e150]: Holders
+                - strong [ref=f7e151]: 4.1k
+              - generic [ref=f7e152]:
+                - generic [ref=f7e153]: Liquidity
+                - strong [ref=f7e154]: $263k
+              - generic [ref=f7e155]:
+                - generic [ref=f7e156]: 7D signal
+                - strong [ref=f7e157]: +8.7%
+            - button "Open Orbitals evidence" [ref=f7e158] [cursor=pointer]: Explore the evidence
+          - article [ref=f7e161]:
+            - generic [ref=f7e162]:
+              - generic [ref=f7e166]: Liquidity health
+              - button "Save Morrow" [ref=f7e167] [cursor=pointer]
+            - generic [ref=f7e170]:
+              - heading "Morrow" [level=3] [ref=f7e171]
+              - generic [ref=f7e172]: $MRW
+            - paragraph [ref=f7e173]: Quiet momentum, a public treasury, and a next milestone with an actual date.
+            - generic [ref=f7e175]:
+              - generic [ref=f7e176]: SAMPLE SIGNAL SCORE
+              - strong [ref=f7e177]: 74/ 100
+            - generic [ref=f7e180]:
+              - generic [ref=f7e181]:
+                - generic [ref=f7e182]: Holders
+                - strong [ref=f7e183]: 1.6k
+              - generic [ref=f7e184]:
+                - generic [ref=f7e185]: Liquidity
+                - strong [ref=f7e186]: $96k
+              - generic [ref=f7e187]:
+                - generic [ref=f7e188]: 7D signal
+                - strong [ref=f7e189]: +5.1%
+            - button "Open Morrow evidence" [ref=f7e190] [cursor=pointer]: Explore the evidence
+        - generic [ref=f7e193]:
+          - generic [ref=f7e194]: 3 of 3 sample projects
+          - generic [ref=f7e195]: Illustrative data | not a live market feed
+      - region [ref=f7e196]:
+        - generic [ref=f7e197]:
+          - paragraph [ref=f7e198]: UNDERSTAND THE SIGNAL
+          - heading [level=2] [ref=f7e199]:
+            - text: Good questions.
+            - emphasis [ref=f7e200]: Better perspective.
+          - paragraph [ref=f7e201]: A score is a starting point. Follow five dimensions back to the work, people, and context behind a project.
+          - button "Download the methodology" [ref=f7e202] [cursor=pointer]
+          - generic [ref=f7e205]: PROPOSED MODEL / V0.1 | ILLUSTRATIVE SCORES
+        - generic [ref=f7e206]:
+          - group [ref=f7e207]:
+            - generic "01 Holder breadth Participation beyond a small inner circle. 28%" [ref=f7e208] [cursor=pointer]:
+              - generic [ref=f7e209]: "01"
+              - generic [ref=f7e210]:
+                - heading "Holder breadth" [level=3] [ref=f7e211]
+                - paragraph [ref=f7e212]: Participation beyond a small inner circle.
+              - strong [ref=f7e213]: 28%
+          - group [ref=f7e216]:
+            - generic "02 Liquidity health Depth that survives beyond the first spike. 24%" [ref=f7e217] [cursor=pointer]:
+              - generic [ref=f7e218]: "02"
+              - generic [ref=f7e219]:
+                - heading "Liquidity health" [level=3] [ref=f7e220]
+                - paragraph [ref=f7e221]: Depth that survives beyond the first spike.
+              - strong [ref=f7e222]: 24%
+          - group [ref=f7e225]:
+            - generic "03 Builder cadence Dated milestones. Work you can inspect. 22%" [ref=f7e226] [cursor=pointer]:
+              - generic [ref=f7e227]: "03"
+              - generic [ref=f7e228]:
+                - heading "Builder cadence" [level=3] [ref=f7e229]
+                - paragraph [ref=f7e230]: Dated milestones. Work you can inspect.
+              - strong [ref=f7e231]: 22%
+          - group [ref=f7e234]:
+            - generic "04 Community proof Contributions with a visible wallet trail. 16%" [ref=f7e235] [cursor=pointer]:
+              - generic [ref=f7e236]: "04"
+              - generic [ref=f7e237]:
+                - heading "Community proof" [level=3] [ref=f7e238]
+                - paragraph [ref=f7e239]: Contributions with a visible wallet trail.
+              - strong [ref=f7e240]: 16%
+          - group [ref=f7e243]:
+            - generic "05 Market quality Consistency, with context around the volume. 10%" [ref=f7e244] [cursor=pointer]:
+              - generic [ref=f7e245]: "05"
+              - generic [ref=f7e246]:
+                - heading "Market quality" [level=3] [ref=f7e247]
+                - paragraph [ref=f7e248]: Consistency, with context around the volume.
+              - strong [ref=f7e249]: 10%
+      - region [ref=f7e252]:
+        - generic [ref=f7e253]:
+          - paragraph [ref=f7e254]: BUILT SOMETHING WORTH EXPLORING?
+          - heading "Give your work a place to begin." [level=2] [ref=f7e255]: Give your worka place to begin.
+          - paragraph [ref=f7e256]: Register your project and its evidence link on Robinhood Chain Testnet. A public starting point for what comes next.
+          - button "Submit a project" [ref=f7e257] [cursor=pointer]
+          - generic [ref=f7e260]: A wallet and testnet ETH are needed to submit.
+        - generic [ref=f7e261]:
+          - generic [ref=f7e262]:
+            - generic [ref=f7e266]:
+              - heading "Velnori Registry" [level=3] [ref=f7e267]
+              - generic [ref=f7e268]: Robinhood Chain Testnet
+            - generic [ref=f7e269]: TESTNET
+          - generic [ref=f7e270]: Reading the testnet registry...
+          - paragraph [ref=f7e272]: Loading public entries. You can keep exploring the sample collection.
+          - generic [ref=f7e273]:
+            - generic [ref=f7e274]: REGISTRY ADDRESS
+            - code [ref=f7e275]: "0xD182cb8c8486173EB4eCF411115A0DD6Cd119F20"
+            - generic [ref=f7e276]:
+              - button "Copy address" [ref=f7e277] [cursor=pointer]
+              - link "View on explorer" [ref=f7e280] [cursor=pointer]:
+                - /url: https://explorer.testnet.chain.robinhood.com/address/0xD182cb8c8486173EB4eCF411115A0DD6Cd119F20
+      - generic [ref=f7e283]:
+        - generic [ref=f7e284]:
+          - text: velnori.
+          - generic [ref=f7e285]: Find your next direction.
+        - paragraph [ref=f7e286]: An independent discovery project.Testnet only. Sample data is not investment advice.
+        - generic [ref=f7e287]:
+          - link "X / @Velnori" [ref=f7e288] [cursor=pointer]:
+            - /url: https://x.com/Velnori
+          - link "velnori.xyz" [ref=f7e291] [cursor=pointer]:
+            - /url: https://velnori.xyz
+        - link "Back to top" [ref=f7e294] [cursor=pointer]:
+          - /url: "#top"

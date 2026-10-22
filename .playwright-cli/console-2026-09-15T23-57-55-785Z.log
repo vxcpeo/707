@@ -1,0 +1,5 @@
+[  117878ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5176/src/App.vue?t=1789516793516:0
+[  117879ms] [ERROR] [hmr] Failed to reload /src/App.vue. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://127.0.0.1:5176/@vite/client:175
+[  118082ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5176/src/App.vue?t=1789516793675:0
+[ 1257514ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5176/src/style.css?t=1789517933279:0
+[ 1257515ms] [ERROR] [hmr] Failed to reload /src/style.css. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://127.0.0.1:5176/@vite/client:175

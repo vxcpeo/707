@@ -1,0 +1,8 @@
+{
+  "address": "0xD182cb8c8486173EB4eCF411115A0DD6Cd119F20",
+  "chainId": 46630,
+  "network": "Robinhood Chain Testnet",
+  "rpcUrl": "https://rpc.testnet.chain.robinhood.com/rpc",
+  "explorer": "https://explorer.testnet.chain.robinhood.com",
+  "deployedAt": "2026-09-12T03:31:19.153Z"
+}

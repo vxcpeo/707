@@ -1,0 +1,169 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - link "Prelivo home" [ref=e7] [cursor=pointer]:
+        - /url: "#overview"
+        - generic [ref=e8]: prelivo
+        - generic [ref=e9]: LAB
+      - navigation "Main navigation" [ref=e10]:
+        - link "Overview" [ref=e11] [cursor=pointer]:
+          - /url: "#overview"
+        - link "Pools" [ref=e13] [cursor=pointer]:
+          - /url: "#pools"
+        - link "Positions" [ref=e15] [cursor=pointer]:
+          - /url: "#positions"
+        - link "Governance" [ref=e17] [cursor=pointer]:
+          - /url: "#governance"
+      - generic [ref=e19]:
+        - generic [ref=e20]: Testnet
+        - button "Connect wallet" [ref=e22] [cursor=pointer]
+    - main [ref=e25]:
+      - region [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: THE LIQUIDITY PRACTICE LAB
+          - heading [level=1] [ref=e30]:
+            - text: Your next move.
+            - emphasis [ref=e31]: Rehearsed.
+          - paragraph [ref=e32]: A little curiosity goes a long way. Explore liquidity models and build a practice position before you connect a wallet.
+          - generic [ref=e33]:
+            - button "Explore pool models" [ref=e34] [cursor=pointer]
+            - button "Take a quick tour" [ref=e37] [cursor=pointer]
+          - generic [ref=e40]: No wallet needed. No assets moved.
+        - group "Interactive model preview" [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: THE REHEARSAL ROOM
+            - generic [ref=e46]: SIMULATION
+          - generic [ref=e51]: +
+          - generic [ref=e52]:
+            - generic [ref=e53]: 01 / 03
+            - generic [aria-hidden] [ref=e57]:
+              - generic [ref=e58]: p
+              - generic [ref=e59]: ↔
+              - generic [ref=e60]: R
+            - heading "Prelivo / Robin" [level=2] [ref=e61]
+            - paragraph [ref=e62]: Balanced liquidity
+            - generic [ref=e63]:
+              - generic [ref=e64]: PTV / RBH
+              - generic [ref=e65]: Core
+            - button "Try this model" [ref=e66] [cursor=pointer]
+          - generic [ref=e69]:
+            - generic [ref=e70]: Pick a perspective.
+            - group "Featured pool model" [ref=e71]:
+              - button "Show Prelivo / Robin model" [pressed] [ref=e72] [cursor=pointer]: "01"
+              - button "Show Robin / USDC model" [ref=e73] [cursor=pointer]: "02"
+              - button "Show Prelivo / ETH model" [ref=e74] [cursor=pointer]: "03"
+      - region "Getting started" [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: FROM CURIOUS TO FAMILIAR
+          - strong [ref=e78]: Your practice path
+          - generic [ref=e79]: 0 / 3 steps explored
+        - button "01 Find your model Three ways to explore liquidity" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: "01"
+          - generic [ref=e82]:
+            - strong [ref=e83]: Find your model
+            - generic [ref=e84]: Three ways to explore liquidity
+        - button "02 Rehearse a position Try an amount. Keep the insight." [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: "02"
+          - generic [ref=e89]:
+            - strong [ref=e90]: Rehearse a position
+            - generic [ref=e91]: Try an amount. Keep the insight.
+        - button "03 Meet the testnet Connect when you’re ready" [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]: "03"
+          - generic [ref=e96]:
+            - strong [ref=e97]: Meet the testnet
+            - generic [ref=e98]: Connect when you’re ready
+      - region [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]: THE MODEL LIBRARY / 03
+            - heading "A model for your next what-if." [level=2] [ref=e105]
+            - paragraph [ref=e106]: Compare the possibilities. All figures below are illustrative.
+          - generic [ref=e107]: Example data
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - group "Filter pools" [ref=e111]:
+              - button "All pools" [pressed] [ref=e112] [cursor=pointer]:
+                - text: All pools
+                - generic [ref=e113]: "03"
+              - button "Core" [ref=e114] [cursor=pointer]
+              - button "Experimental" [ref=e115] [cursor=pointer]
+            - searchbox "Search pools" [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Sort pools
+              - combobox "Sort pools" [ref=e122]:
+                - option "Featured first" [selected]
+                - option "Sample APY"
+                - option "Sample TVL"
+          - status [ref=e123]:
+            - text: 3 models to explore
+            - generic [ref=e124]: LOCAL SIMULATION · NO DEPOSIT
+          - generic [aria-hidden] [ref=e125]:
+            - generic [ref=e126]: POOL / STRATEGY
+            - generic [ref=e127]: PROFILE
+            - generic [ref=e128]: SAMPLE APY
+            - generic [ref=e129]: SAMPLE TVL
+            - generic [ref=e130]: EXPLORE
+          - generic [ref=e131]:
+            - article [ref=e132]:
+              - generic [ref=e133]:
+                - generic [aria-hidden] [ref=e134]:
+                  - generic [ref=e135]: p
+                  - generic [ref=e136]: R
+                - generic [ref=e137]:
+                  - heading "Prelivo / Robin" [level=3] [ref=e138]
+                  - paragraph [ref=e139]: PTV / RBH · Balanced liquidity
+              - generic [ref=e140]: Core
+              - generic [ref=e141]:
+                - generic [ref=e142]: Sample APY
+                - strong [ref=e143]: 42.8%
+                - text: Illustrative
+              - generic [ref=e144]:
+                - generic [ref=e145]: Sample TVL
+                - strong [ref=e146]: $18.4M
+              - button "Preview Prelivo / Robin pool" [ref=e149] [cursor=pointer]: Preview
+            - article [ref=e152]:
+              - generic [ref=e153]:
+                - generic [aria-hidden] [ref=e154]:
+                  - generic [ref=e155]: R
+                  - generic [ref=e156]: $
+                - generic [ref=e157]:
+                  - heading "Robin / USDC" [level=3] [ref=e158]
+                  - paragraph [ref=e159]: RBH / USDC · Stable pair liquidity
+              - generic [ref=e160]: Core
+              - generic [ref=e161]:
+                - generic [ref=e162]: Sample APY
+                - strong [ref=e163]: 28.6%
+                - text: Illustrative
+              - generic [ref=e164]:
+                - generic [ref=e165]: Sample TVL
+                - strong [ref=e166]: $11.2M
+              - button "Preview Robin / USDC pool" [ref=e169] [cursor=pointer]: Preview
+            - article [ref=e172]:
+              - generic [ref=e173]:
+                - generic [aria-hidden] [ref=e174]:
+                  - generic [ref=e175]: p
+                  - generic [ref=e176]: Ξ
+                - generic [ref=e177]:
+                  - heading "Prelivo / ETH" [level=3] [ref=e178]
+                  - paragraph [ref=e179]: PTV / ETH · Variable liquidity
+              - generic [ref=e180]: Experimental
+              - generic [ref=e181]:
+                - generic [ref=e182]: Sample APY
+                - strong [ref=e183]: 67.1%
+                - text: Illustrative
+              - generic [ref=e184]:
+                - generic [ref=e185]: Sample TVL
+                - strong [ref=e186]: $6.8M
+              - button "Preview Prelivo / ETH pool" [ref=e189] [cursor=pointer]: Preview
+          - generic [ref=e192]:
+            - paragraph [ref=e195]: APY and TVL are sample figures, not live returns. PTV is a demo symbol, separate from HOOD test tokens. Previews move no assets.
+            - button "Read the guide" [ref=e196] [cursor=pointer]
+    - contentinfo [ref=e199]:
+      - generic [ref=e200]: © 2026 Prelivo
+      - generic [ref=e201]:
+        - button "Guide" [ref=e202] [cursor=pointer]
+        - link "Explorer" [ref=e203] [cursor=pointer]:
+          - /url: https://explorer.testnet.chain.robinhood.com
+      - paragraph [ref=e206]: An independent project on Robinhood Chain Testnet. No affiliation with Robinhood. Test tokens have no cash value.

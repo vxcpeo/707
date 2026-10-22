@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img">
+<title>Probiuna icon</title>
+<rect x="0" y="0" width="72" height="72" rx="0" fill="#05070b" stroke="none"/>
+<circle cx="61.92" cy="-14.4" r="37.028571428571425" fill="#06070c" stroke="none" stroke-width="1"/>
+<circle cx="61.92" cy="-14.4" r="30.857142857142854" fill="#08080d" stroke="none" stroke-width="1"/>
+<circle cx="61.92" cy="-14.4" r="24.685714285714283" fill="#0a090f" stroke="none" stroke-width="1"/>
+<circle cx="61.92" cy="-14.4" r="18.514285714285712" fill="#0d0a12" stroke="none" stroke-width="1"/>
+<circle cx="61.92" cy="-14.4" r="12.342857142857142" fill="#100b15" stroke="none" stroke-width="1"/>
+<circle cx="61.92" cy="-14.4" r="6.171428571428571" fill="#140d18" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="33.94285714285714" fill="#05080c" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="28.28571428571429" fill="#06090d" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="22.62857142857143" fill="#060a0f" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="16.97142857142857" fill="#070c11" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="11.314285714285715" fill="#080f13" stroke="none" stroke-width="1"/>
+<circle cx="4.32" cy="64.8" r="5.6571428571428575" fill="#091116" stroke="none" stroke-width="1"/>
+<path d="M0 0L0 72" fill="none" stroke="#11161d" stroke-width="1"/>
+<path d="M64 0L64 72" fill="none" stroke="#11161d" stroke-width="1"/>
+<path d="M0 0L72 0" fill="none" stroke="#11161d" stroke-width="1"/>
+<path d="M0 64L72 64" fill="none" stroke="#11161d" stroke-width="1"/>
+<rect x="19.36" y="10.68" width="9.6" height="48.64" rx="2.56" fill="#f2f7fd" stroke="none"/>
+<circle cx="44.96" cy="28.6" r="16.64" fill="none" stroke="#f2f7fd" stroke-width="5"/>
+<circle cx="44.96" cy="28.6" r="5.76" fill="#c74fb2" stroke="none" stroke-width="1"/>
+<rect x="19.36" y="56.76" width="33.28" height="3.84" rx="1.92" fill="#5fe4ee" stroke="none"/>
+</svg>

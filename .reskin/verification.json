@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T18:00:33.802Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/707/website",
+    "name": "probiuna-site",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": true,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "attributes: \"name=bookmark\" count increased 8 -> 12",
+        "attributes: \"name=layers\" count increased 4 -> 8",
+        "attributes: added \"name=compass\"",
+        "attributes: added \"name=fingerprint\""
+      ],
+      "hash": "02b10a4dccd3de9cb81f29ecc3b42799e0ffd81acdde473a848cab5623ead26a"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "orbital",
+        "family": "spatial",
+        "traits": {
+          "sidebar": false,
+          "topbar": true,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": false,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": true,
+          "terminal": false,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "sidebar-workspace",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": false,
+          "modal": true,
+          "charts": false,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#0b8175",
+        "current": "#c74fb2",
+        "deltaE": 95.66,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.329,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0.017
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 21,
+              "total": 35
+            },
+            "current": {
+              "tokens": 21,
+              "total": 35
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [],
+  "warnings": [
+    "attributes: \"name=bookmark\" count increased 8 -> 12",
+    "attributes: \"name=layers\" count increased 4 -> 8",
+    "attributes: added \"name=compass\"",
+    "attributes: added \"name=fingerprint\""
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-21T17:10:01.266Z",
+    "routes": [
+      "/"
+    ]
+  }
+}
